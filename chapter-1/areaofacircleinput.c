@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main () {
-    int r;
+    int n;
     printf("Enter the Radius : ");
-    scanf("%d",&r);
+    scanf("%d",&n);
 
     float area;
-    area = 3.14*r*r;
+    area = 3.14*n*n;
     printf("%f",area);
     return 0;
 }
