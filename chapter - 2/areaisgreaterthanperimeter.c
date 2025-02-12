@@ -8,17 +8,17 @@ int main () {
     printf("Enter Breadth of the Rectangle : ");
     scanf("%d",&breadth);
 
-    int area,perimeter;
-    area = length*breadth;
+    int isarea,perimeter;
+    isarea = length*breadth;
     perimeter = 2*(length+breadth);
 
-    if(area>perimeter)
+    if(isarea>perimeter)
     {
-        printf("area is greater %d",area-perimeter);
+        printf("area is greater %d",isarea-perimeter);
     }
     else
     {
-        printf("perimeter is greater %d",perimeter-area);
+        printf("perimeter is greater %d",perimeter-isarea);
     }
     return 0;
 }
