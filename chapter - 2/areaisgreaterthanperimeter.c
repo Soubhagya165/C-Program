@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main () {
-    int l;
+    int length;
     printf("Enter Length of the Rectangle : ");
-    scanf("%d",&l);
+    scanf("%d",&length);
 
-    int b;
+    int breadth;
     printf("Enter Breadth of the Rectangle : ");
-    scanf("%d",&b);
+    scanf("%d",&breadth);
 
     int area,perimeter;
-    area = l*b;
-    perimeter = 2*(l+b);
+    area = length*breadth;
+    perimeter = 2*(length+breadth);
 
     if(area>perimeter)
     {
