@@ -5,15 +5,15 @@ int main()
     printf("enter a number ");
     scanf("%d", &n);
 
-    int r = 0;
+    int reverse = 0;
     int b;
     while (n > 0)
     {
         b = n%10;
-        r = b*b*b + r;
+        reverse = b*b*b + reverse;
         n = n / 10;
     }
-    printf("%d",r);
+    printf("%d",reverse);
 
     return 0;
 }
