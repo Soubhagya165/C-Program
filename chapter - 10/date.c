@@ -6,8 +6,8 @@ int main () {
         int year;
     };
 
-    struct Date arr[2];
-    for(int i = 0;i<2;i++)
+    struct Date arr[3];
+    for(int i = 0;i<3;i++)
     {
         arr[i].date;
         scanf("%d",&arr[i].date);
